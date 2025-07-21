@@ -10,4 +10,4 @@ def get_hostname():
 
 if __name__ == '__main__':
     # Avvia il server sulla porta 80 su tutte le interfacce
-    app.run(host='0.0.0.0', port=8080)
+    app.run(host='0.0.0.0', port=5000)
