@@ -1,0 +1,40 @@
+# Ambiente virtuale
+flask_env/
+venv/
+
+# File Python compilati
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Log / debug / output
+*.log
+*.tmp
+*.bak
+*.swp
+
+# File di sistema (Windows/macOS)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Credenziali o variabili d’ambiente (se usi .env)
+.env
+.env.*
+
+# File generati da editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Output temporanei
+*.egg-info/
+dist/
+build/
+
+# Backup
+*~
+
+# Script o test temporanei
+*.test.py
